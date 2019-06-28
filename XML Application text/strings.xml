@@ -1,0 +1,151 @@
+<resources>
+
+    //Homescreen
+    <string name="home_screen_title">Investment Interaction Application</string>
+
+    //Introduction
+    <string name="general_introduction">In this experiment, there will be two stages through which you will progress.
+    \n\nFirst, you will have to go through a series of statements and situations in which you will have to choose the answer that is most applicable to you.
+    Afterwards, you will be presented with three different (fictional) investment opportunities. You should study those opportunities and decide how much (fictional) money you would like to invest in each of them.
+     \n\nNOTE: It is not allowed to go back to previous screens during this experiment.
+    </string>
+    <string name="tile_introduction">General Introduction</string>
+
+    //ClassificationIntroduction
+    <string name="tite_classification_introduction">Categorization Introduction</string>
+    <string name="classification_introduction_explanation">You will be presented with 5 statements and 4 questions. Each of those statements and questions have 2 possible answers. Choose the answer that is most applicable to you.</string>
+
+    //IntroductionInteraction
+    <string name="introduction_interaction_title">Interaction Introduction</string>
+    <string name="introduction_interaction_explanation">The next part of the experiment will require you to make investments that you think are fitting for three (fictional) companies while considering different kinds of questions.
+        \n\nIn total, the application will ask eight questions for each company. These will be distributed over 2 rounds with each consisting of four questions.
+        \n\nThe investments that you make should be between $ 0 - 1000 with $0 being the lowest (o investment) and $1000 being the maximum.
+        \n\nFor each fictional company, you will be asked four questions sequentially. \nAfter each question, you should make an investment after having considered this question in relation to the relevant company. You should also give a yes/no answer to each of the questions.
+        \nThe money used for each new investment is independent of the other investments, the only requirement is that it is in the range of $0 - 1000.
+        \n\nRemember that throughout this experiment, there is no "right" answer. Do what you think is best while making your decisions.
+        \n\nNOTE: Remember that you are not allowed to go back to a previous screen. Also, you should not leave any field blank.
+    </string>
+
+    //Style Statements
+    <string name="style_statement_1_title">Statement 1</string>
+    <string name="style_statement_2_title">Statement 2</string>
+    <string name="style_statement_3_title">Statement 3</string>
+    <string name="style_statement_4_title">Statement 4</string>
+    <string name="style_statement_5_title">Statement 5</string>
+    <string name="style_statement_1_content">I act quickly in a chaotic situation in which it is unclear what the best action is that I can take. </string>
+    <string name="style_statement_2_content">I consider myself to be relatively good at almost anything if I try my best.</string>
+    <string name="style_statement_3_content">If something does not quite go the way that I envisioned it would go, it is more often due to external circumstances that are out of my control rather than my proficiency at that what I did. </string>
+    <string name="style_statement_4_content">I prefer to do things in the way that I have always done it as that way works for me. I give preference to my way over alternative ways that I’m not familiar with even though, if mastered, those ways might be (but are not necessarily) more effective compared to my way. </string>
+    <string name="style_statement_5_content">I would rather keep my $1,000,000 that I have worked very hard for to earn than to guaranteed lose the $1,000,000 and, in exchange, have an opportunity that has a very large potential to return $3,000,000.</string>
+
+
+    //Style Questions
+    <string name="style_question_1_title">Question 1</string>
+    <string name="style_question_2_title">Question 2</string>
+    <string name="style_question_3_title">Question 3</string>
+    <string name="style_question_4_title">Question 4</string>
+    <string name="style_question_1_content">You win $1000 and now have an opportunity to invest this money into potential Stocks that you think are almost sure to generate profit over this $1000. However, you might be wrong. What will you do?</string>
+    <string name="style_question_2_content">Today seems like a good day to you to make an investment. To you almost all stocks that you find interesting have the potential to, in your eyes, yield high returns today as you think that you see a lot of indications that this is the case. However, a while ago you decided to not invest in any new stocks for a while and stick with your, in your opinion, well-researched stocks no matter what happens. Now you think that this was a naïve decision and that the situation justifies a deviation from this decision. After all, the stocks that you had are not performing as good as you thought they would. So, you think that selling them and then re-investing the earned money might be better. What will you do?</string>
+    <string name="style_question_3_content">Due to some disturbance in the markets, almost all of the stocks that you have been watching have decreased in value quite a bit. You think that the stocks won’t go lower. This allows for some interesting investment opportunities. What will you do? </string>
+    <string name="style_question_4_content">You have item A which will probably give a small return on your investment and you can choose whether to keep A or switch to item B, C, D, E, F or G. You think that one of the other options is better and will yield a much higher return on investment, but you have no way of knowing if this is true or not. This means that you could be wrong. What will you do?</string>
+    <string name="style_question_1_A">Do not invest and keep the $1000 on a bank account </string>
+    <string name="style_question_1_B">Invest the $1000 into a high risk-high reward stock </string>
+    <string name="style_question_2_A">Do more research in the stocks that you find the most interesting and aim to make 1 good investment in one of these very interesting stocks while selling all of your old stocks </string>
+    <string name="style_question_2_B">Stick to the plan that you made a while ago and keep your old stocks, even though this might not be the best financial decision to make </string>
+    <string name="style_question_3_A">Make lots of smaller investments and short-term trades over most of the stocks that you find interesting with the aim to maximize your profits </string>
+    <string name="style_question_3_B">Decide to wait and not invest. After all, the stocks might go even lower and you don’t want to risk losing the invested money </string>
+    <string name="style_question_4_A">Keep A</string>
+    <string name="style_question_4_B">Take another item </string>
+
+
+    //Standard Investing
+    <string name="standard_investing_title">Investing</string>
+    <string name="standard_investing_explanation">Please enter a value ranging from, at the lowest $0, to, at the highest $1000 in the boxes below for each of the investment opportunities.</string>
+    <string name="standard_investing_text_indicator_ecorun">Enter your investment for EcoRun:</string>
+    <string name="standard_investing_text_indicator_relocoin">Enter your investment for ReloCoin:</string>
+    <string name="standard_investing_text_indicator_virtualsociety">Enter your investment for VirtualSociety:</string>
+
+    //Start Screen Of The Actual Interaction
+    <string name="start_screen_interaction_title">Start of the Interaction</string>
+    <string name="start_sreen_interaction_explanation">Now that you have decided upon the investments of the three products, you will be made to think in more detail about those decisions.
+    This is done by presenting several questions. Your task is to read those questions and answer them for yourself. After you have done so, you should enter a number between 0 - 10 that indicates how confident you are in that you have considered the question well in relation to the company that you might invest in.
+    After you have done that, you can make an investment based on new insights that might have arisen while thinking over the question. </string>
+
+    //Interaction Text
+    <string name="interaction_questions_explain_investment">Enter your investment amount (0 - 1000):</string>
+    <string name="interaction_questions_explain_confidence">Enter a number (0 - 10) to express your confidence in you having considered the question in relation to the current company well: </string>
+    <string name="interaction_questions_explain_why">Shortly explain why you think that this is the right investment amount: </string>
+
+    //StatusQuo Questions
+    <string name="status_quo_question_1_title">Question 1</string>
+    <string name="status_quo_question_2_title">Question 2</string>
+    <string name="status_quo_question_3_title">Question 3</string>
+    <string name="status_quo_question_4_title">Question 4</string>
+
+    <string name="status_quo_question_1_content">Do you have Faith in the main product of this company? Consider whether people will buy it. Remember: Just because you might think that this is a great or bad product, does not necessarily mean that others think the same way you do. They might or might not want this product. Think from the perspective of the general public and increase your investment if appropriate.</string>
+    <string name="status_quo_question_2_content">What do other people think of this company? Will you let this influence your investment decision? Remember: Being open to analysis’s made by other people might aid in getting new perspectives on your investment. It might reveal interesting information that could give you the confidence needed to make a larger investment.</string>
+    <string name="status_quo_question_3_content">What if this $1000 was all the money that you had to freely spent for an entire year. Would you be sure that you are comfortable with your current decision? Consider if you could handle the risk mentally. If so, it might be that you are too comfortable with your current decision. Consider increasing the investment amount. Stepping a bit out of your comfort zone might help you keeping more alert and more aware of relevant developments regarding your investment allowing you to respond quickly and prevent losses. </string>
+    <string name="status_quo_question_4_content">Finally, are you convinced that this is the most rational decision that could be taken given the information that you currently have? Consider if the investment amount is appropriate relative to the available information. Also, consider if you truly came to this decision by thinking rationally and not emotionally. It might be better to increase your investment. </string>
+
+
+    //Overconfidence Questions
+    <string name="overconfidence_question_1_content">Do you have Faith in the main product of this company? Consider whether people will buy it. Remember: Just because you might think that this is a great or bad product, does not necessarily mean that others think the same way you do. They might or might not want this product. Think from the perspective of the general public and lower your investment if appropriate.</string>
+    <string name="overconfidence_question_2_content">What do other people think of this company? Will you let this influence your investment decision? Remember: It is probably not a good idea to make decisions based off of others analyses. However, considering their words with an open mind might lead to insights in risks that otherwise would have remain hidden allowing you to make investments that might be lower, but safer.  </string>
+    <string name="overconfidence_question_3_content">What if this $1000 was all the money that you had to freely spent for an entire year. Would you be sure that you are comfortable with your current decision? Consider if you could handle the risk mentally. It might be wise to lower your amount such that you could reduce your risk.</string>
+    <string name="overconfidence_question_4_content">Finally, are you convinced that this is the most rational decision that could be taken given the information that you currently have? Consider if the investment amount is appropriate relative to the available information. Also, consider if you truly came to this decision by thinking rationally and not emotionally. It might be better to lower your investment.</string>
+
+    <string name="overconfidence_question_1_title">Question 1</string>
+    <string name="overconfidence_question_2_title">Question 2</string>
+    <string name="overconfidence_question_3_title">Question 3</string>
+    <string name="overconfidence_question_4_title">Question 4</string>
+
+
+    //Neutral Questions
+    <string name="neutral_question_1_content">Some companies that fail are founded by people who hold highly regarded degrees. Some successful companies are founded by people who do not have a degree at all. The reverse also holds true. Do you think that it is responsible to create a company given the degrees of the Management Team? </string>
+    <string name="neutral_question_2_content">Is the novelty of the product that this company has of importance to you while deciding on how much you are going to invest? </string>
+    <string name="neutral_question_3_content">Some companies participate in matters such as philanthropy or being good to the environment. Do you find it important for the company that you are investing in to take interest in such matters?</string>
+    <string name="neutral_question_4_content">Is the Vision of the company important to you when you decide to invest in the company? </string>
+    <string name="neutral_question_1_title">Question 1</string>
+    <string name="neutral_question_2_title">Question 2</string>
+    <string name="neutral_question_3_title">Question 3</string>
+    <string name="neutral_question_4_title">Question 4</string>
+
+    //Style results screen
+    <string name="style_results">Your investment style is identified as being:</string>
+    <string name="style_results_overconfident">Overconfident</string>
+    <string name="style_results_status_quo">Status Quo</string>
+    <string name="start_guidance_process">Start the Interaction process</string>
+
+    //Final Investment Screen
+    <string name="final_investment_screen_title">Final Investment Decision</string>
+    <string name="final_investment_screen_input_indication">Now that you have considered the four questions, enter your final decision for the amount to be invested below. Enter an amount ranging from 0 - 1000:</string>
+
+
+    //Investment Oppertunity
+    <string name="investment_oppertunity_text_indicator">Take a look at the paper about the following company: </string>
+
+    //Results
+    <string name="results_screen_title">Results</string>
+    <string name="results_screen_initial_investment_ecorun">Neutral Investment for EcoRun</string>
+    <string name="results_screen_initial_investment_relocoin">Neutral Investment for ReloCoin</string>
+    <string name="results_screen_initial_investment_virtualsociety">Neutral Investment for VirtualSociety</string>
+    <string name="results_screen_updated_investment_ecorun">Influenced Investment for EcoRun</string>
+    <string name="results_screen_updated_investment_relocoin">Influenced Investment for ReloCoin</string>
+    <string name="results_screen_updated_investment_virtualsociety">Influenced Investment for VirtualSociety</string>
+
+    //Miscellaneous
+    <string name="app_name">Investment Interaction Application</string>
+    <string name="Next_Question">Next Question</string>
+    <string name="Next">Next</string>
+    <string name="start">Start!</string>
+    <string name="button_agree">Agree</string>
+    <string name="button_disagree">Disagree</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="type_answer_here">Type your answer here</string>
+    <string name="type_investment_here">Type your $ invested here</string>
+    <string name="previous_investment_indicator">Previous Investment: </string>
+    <string name="second_round_start_screen">The Second Round </string>
+
+
+</resources>
